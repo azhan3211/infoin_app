@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:background="@color/mainTheme">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"></LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:orientation="vertical"
+        android:background="#fff">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="22sp"
+            android:gravity="center"
+            android:textColor="@color/mainTheme"
+            android:textStyle="bold"
+            android:text="Mudah dan Cepat"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:textColor="@color/mainTheme"
+            android:padding="5dp"
+            android:gravity="center"
+            android:text="kamu dapat langsung pilih seminar atau event seseuai dengan kategori yang kamu inginkan, kemudian klik daftar dan DONE!. Pembayaranpun kamu tidak usah bingung karena infoin juga menyediakan fasilitas pembayaran tanpa harus datang ke tempat seminar atau event."/>
+    </LinearLayout>
+</LinearLayout>
